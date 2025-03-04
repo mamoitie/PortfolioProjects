@@ -144,7 +144,7 @@ DROP COLUMN OwnerAddress;
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
 
-# CHANGE Y AND N TO YES AND NO UN "SOLD AS VACANT" FIELD
+# CHANGE Y AND N TO YES AND NO IN "SOLD AS VACANT" FIELD
 
 
 SELECT DISTINCT(SOLDASVACANT), COUNT(SoldAsVacant)
